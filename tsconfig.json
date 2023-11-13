@@ -4,8 +4,11 @@
     "strict": true,
     "baseUrl": ".",
     "paths": {
-      "@src/*": ["src/*"]
-    }
+      "@src/*": ["src/*"],
+      "@env": ["src/env.js"]
+    },
+    "esModuleInterop": true,
+    "checkJs": true
   },
   "exclude": ["node_modules"],
   "include": ["src/**/*.ts", "src/**/*.tsx"]
